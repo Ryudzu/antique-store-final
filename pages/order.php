@@ -222,22 +222,22 @@
 							<form action="order_details.php" method="POST" id="checkout_form" name="checkout_form" class="checkout_form">
 								<div>
 									<!-- Username -->
-									<label for="checkout_username">Имя*</label>
+									<label for="checkout_username">Имя заказчика*</label>
 									<input type="text" id="checkout_username" name="checkout_username" class="checkout_input" required="required">
 								</div>
 								<div>
 									<!-- Address -->
-									<label for="checkout_address">Адрес*</label>
+									<label for="checkout_address">Адрес доставки*</label>
 									<input type="text" id="checkout_address" name="checkout_address" class="checkout_input" required="required">
 								</div>
 								<div>
 									<!-- Email -->
-									<label for="checkout_email">Почта*</label>
+									<label for="checkout_email">Почта для связи*</label>
 									<input type="text" id="checkout_email" name="checkout_email" class="checkout_input" required>
 								</div>
 								<div>
 									<!-- Comment -->
-									<label for="checkout_comment">Коментарий</label>
+									<label for="checkout_comment">Коментарий к заказу</label>
 									<input type="text" id="checkout_comment" name="checkout_comment" class="checkout_input">
 								</div>
 								<div class="button order_button"><a href="#">

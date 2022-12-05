@@ -241,12 +241,12 @@
 							<label class="delivery_option clearfix">На следующий день доставка
 								<input type="radio" name="radio">
 								<span class="checkmark"></span>
-								<span class="delivery_price">$4.99</span>
+								<span class="delivery_price">2 BYN</span>
 							</label>
 							<label class="delivery_option clearfix">Стандартная доставка
 								<input type="radio" name="radio">
 								<span class="checkmark"></span>
-								<span class="delivery_price">$1.99</span>
+								<span class="delivery_price">1 BYN</span>
 							</label>
 							<label class="delivery_option clearfix">Самовывоз
 								<input type="radio" checked="checked" name="radio">
@@ -276,16 +276,12 @@
 						<div class="cart_total_container">
 							<ul>
 								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="cart_total_title">Цена</div>
-									<div class="cart_total_value ml-auto">$790.90</div>
-								</li>
-								<li class="d-flex flex-row align-items-center justify-content-start">
 									<div class="cart_total_title">Доставка</div>
-									<div class="cart_total_value ml-auto">Free</div>
+									<div class="cart_total_value ml-auto">Бесплатно</div>
 								</li>
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<div class="cart_total_title">В сумме</div>
-									<div class="cart_total_value ml-auto">$790.90</div>
+									<div class="cart_total_value ml-auto">BYN</div>
 								</li>
 							</ul>
 						</div>

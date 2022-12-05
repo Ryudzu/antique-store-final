@@ -63,7 +63,7 @@ if(isset($_POST['submit'])) {
 		$product_sort = mysqli_fetch_assoc($sql_product);
 		$product_id = array_values($product_sort)[0];
 
-		$get_order = "INSERT INTO `Order` (`user_id`, `comment`, `date`, `product_order_id`, `username`, `email`, `address`)
+		$get_order = "INSERT INTO `Order` (`user_id`, `comment`, `date`, `product_order_id`, `customer_username`, `contact_email`, `delivery_address`)
 		VALUES
 		('$user_id', '$comment', '$orderDate', '$product_id', '$username', '$email', '$address')";
 		$order = mysqli_query($conn, $get_order);
@@ -72,7 +72,7 @@ if(isset($_POST['submit'])) {
 			$_SESSION['order'] = 'Ваш заказ был успешно сделан и находится в обработке!';
 			header('Location: order.php');
 		} else {
-			$_SESSION['order_fail'] = 'Упс, произошла ошибка! Выберите товар.';
+			$_SESSION['order_fail'] = 'Упс, произошла ошибка!';
 			header('Location: order.php');
 		}
 	} else {
